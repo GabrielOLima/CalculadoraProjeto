@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
-const calculadoraPage = () => {
+const CalculadoraPage = () => {
 
     const calc = (e) => {
         var operacao = e.value;
@@ -63,4 +63,4 @@ const calculadoraPage = () => {
     )
 }
 
-export default calculadoraPage;
+export default CalculadoraPage;

@@ -6,16 +6,18 @@ import {
     Navigate
 } from "react-router-dom"
 
-import calculadoraPage from './pages/calculadoraPage'
+import CalculadoraPage from './pages/calculadoraPage'
 
 
 
 const AppRoutes = () => {
-    <Router>
+    return (
+        <Router>
         <Routes>
-            <Route exact path="/" element={<calculadoraPage/>}/>
+            <Route path="/" element={<CalculadoraPage/>}/>
         </Routes>
     </Router>
+    )
 }
 
 export default AppRoutes;

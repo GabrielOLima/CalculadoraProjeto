@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from 'styled-components';
 
 const CalculadoraPage = () => {
 
-    const calc = (e) => {
-        var operacao = e.value;
+    const [n1, setNum] = useState('')
+    const [n2, setNum] = useState('')
+    const [nfinal, setNum] = useState('')
+    const [nOperacao, setState] = useState('')
+
+    const calc = () => {
+        /*var operacao = e.value;
+
  
         var n1=parseFloat(document.getElementById("n1").value);
         var n2=parseFloat(document.getElementById("n2").value);
@@ -13,7 +19,9 @@ const CalculadoraPage = () => {
     
         if(!isNaN(calculo)){
         alert(calculo);
-        }
+        }*/
+
+        //setNum(n1+)
     }
 
     const ola = (x) => {

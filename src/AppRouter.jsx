@@ -8,8 +8,6 @@ import {
 
 import CalculadoraPage from './pages/calculadoraPage'
 
-
-
 const AppRoutes = () => {
     return (
         <Router>
